@@ -569,7 +569,7 @@
         .offer-badge {
             position: absolute;
             top: 20px;
-            right: 20px;
+            right: 220px;
             background: var(--gradient-2);
             color: white;
             padding: 10px 20px;
@@ -1230,12 +1230,13 @@
         }
     </style>
 </head>
-<body>
+<body class="sidebar-collapsed">
+
     <!-- Sidebar Overlay -->
     <div class="sidebar-overlay" id="sidebarOverlay"></div>
 
     <!-- Sidebar -->
-    <div class="sidebar" id="sidebar">
+    <div class="sidebar mobile-hidden" id="sidebar">
         <div class="sidebar-header">
             <div class="sidebar-title">Navigation</div>
             <div class="sidebar-close" id="sidebarClose">
@@ -1244,7 +1245,7 @@
         </div>
         <nav class="sidebar-nav">
             <a href="#home" class="active"><i class="fas fa-home"></i> Home</a>
-            <a href="#offers"><i class="fas fa-gift"></i> Offers</a>
+           <a href="#offers"><i class="fas fa-gift"></i> Offers</a>
             <a href="#services"><i class="fas fa-concierge-bell"></i> Services</a>
             <a href="#destinations"><i class="fas fa-map-marked-alt"></i> Destinations</a>
             <a href="#contact-form"><i class="fas fa-paper-plane"></i> Book Now</a>
